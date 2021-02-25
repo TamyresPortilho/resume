@@ -1,0 +1,23 @@
+{
+  "name": "fellipe-resume",
+  "version": "1.0.0",
+  "description": "installing parcel to my resume files",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --out-dir ./dist" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fddemora/resume.git"
+  },
+  "author": "Fellipe de Moraes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fddemora/resume/issues"
+  },
+  "homepage": "https://github.com/fddemora/resume#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}
