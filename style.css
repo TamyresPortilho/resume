@@ -210,6 +210,10 @@ Certifications
     .links, .job-title-container {
       flex-direction: column;
     }
+
+    .links-item:first-child{
+      margin-bottom: 20px;
+    }
   
     .skills-container {
       grid-template-columns: 1fr 1fr;
