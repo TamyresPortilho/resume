@@ -22,7 +22,7 @@ img{
     fill: currentColor;
     display: inline-block;
     font-size: inherit;
- /*  height: 1em;  */
+   height: 1em;  
     overflow: visible;
 }
 
