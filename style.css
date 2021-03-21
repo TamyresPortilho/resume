@@ -65,9 +65,9 @@ Main Info
 ************************************/
 
 img.avatar{
-    height: 130px;
-    width: 130px;
-    border-radius: 5%;
+    height: 140px;
+    width: 110px;
+    border-radius: 3%
 }
 
 .my-name{
