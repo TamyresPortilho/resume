@@ -1,3 +1,43 @@
 # Resume
 https://fellipedemoraes.netlify.app <br />
-I started building my resume from here https://github.com/drehimself/resume-template
+I started building my resume from here https://github.com/drehimself/resume-template <br/><br/>
+
+I chose this template because it looked simple and professional.  <br/>
+This was a lot better because I customized the template to make it work for me. In the past, I paid for templates that looked nice but I couldn't customize, there were some display issues, and not to mention monthly payments. <br/> <br/>
+
+Technologies used were:
+
+- HTML5
+- CSS3
+- npm
+- parcel
+
+<br/>
+
+## Quick start
+
+run https `git clone https://github.com/fddemora/resume.git` <br/>
+or run ssh `git clone git@github.com:fddemora/resume.git` <br/>
+Next run `cd resume` in your terminal or cmd <br/>
+<br/>
+Make sure you have node js installed in your computer to run npm. I use nvm to install node but there is a better option out there. Follow the command here:
+
+```
+# install Volta
+curl https://get.volta.sh | bash
+
+# install Node
+volta install node
+
+# start using Node
+node
+```
+
+<br/><br/>
+Lastly, run npm to install our devDependencies and run our parcel server: <br/>
+```
+npm install
+npm run start
+```
+
+
