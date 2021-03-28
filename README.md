@@ -33,6 +33,7 @@ volta install node
 # start using Node
 node
 ```
+curl is a unix command. If you are a windows user, check out this installation guide [volta install](https://docs.volta.sh/guide/getting-started)
 
 <br/><br/>
 Lastly, run npm to install our devDependencies and run our parcel server: <br/>
