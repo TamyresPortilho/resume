@@ -16,10 +16,11 @@ Technologies used were:
 
 ## Quick start
 
-run https `git clone https://github.com/fddemora/resume.git` <br/>
-or run ssh `git clone git@github.com:fddemora/resume.git` <br/>
-Next run `cd resume` in your terminal or cmd <br/>
-<br/>
+run https: `git clone https://github.com/fddemora/resume.git` <br/>
+or run ssh: `git clone git@github.com:fddemora/resume.git` <br/><br/>
+
+Next run    `cd resume` in your terminal or cmd <br/><br/>
+
 Make sure you have node js installed in your computer to run npm. I use nvm to install node but there is a better option out there. Follow the command here:
 
 ```
@@ -39,5 +40,6 @@ Lastly, run npm to install our devDependencies and run our parcel server: <br/>
 npm install
 npm run start
 ```
-
+<br/>
+To access the server, run localhost:1234 on your browser.
 
