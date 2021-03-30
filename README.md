@@ -1,5 +1,5 @@
 # Resume
-https://fellipedemoraes.netlify.app <br />
+
 I started building my resume from here https://github.com/drehimself/resume-template <br/><br/>
 
 I chose this template because it looked simple and professional.  <br/></br>
