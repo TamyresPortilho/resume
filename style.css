@@ -23,12 +23,12 @@ img{
     fill: currentColor;
     display: inline-block;
     font-size: inherit;
-  /*  height: 1em;  */  
+  /*  height: 1em;  */
     overflow: visible;
 }
 
 a{
-    color: #223497;  
+    color: #223497;
     text-decoration: none;
 }
 
@@ -85,7 +85,7 @@ img.avatar{
 }
 
 .icon-title {
-   
+
     display: flex;
     align-items: center;
     flex: 1;
@@ -133,7 +133,7 @@ Experience
     font-size: 18px;
   }
 
-  
+
   .job-company {
     font-weight: bold;
     line-height: 1.2;
@@ -184,7 +184,7 @@ Certifications
     display: flex;
     justify-content: space-between;
   }
-  
+
   .interests-container img {
     height: 40px;
     opacity: 0.75;
@@ -198,7 +198,7 @@ Certifications
   margin-top: 5px;
     font-size: 18px;
   }
-  
+
   .reference-details {
     margin-bottom: 20px;
   }
@@ -207,7 +207,7 @@ Certifications
     section {
       grid-template-columns: 1fr;
     }
-  
+
     .links, .job-title-container {
       flex-direction: column;
     }
@@ -215,19 +215,21 @@ Certifications
     .links-item:first-child{
       margin-bottom: 20px;
     }
-  
+
     .skills-container {
       grid-template-columns: 1fr 1fr;
       grid-row-gap: 15px;
     }
-  
+
     .interests-container {
       flex-wrap: wrap;
       justify-content: flex-start;
     }
-  
+
     .interests-container img {
       margin-right: 32px;
       margin-bottom: 16px;
     }
   }
+
+ 
