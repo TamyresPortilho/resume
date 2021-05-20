@@ -1,113 +1,118 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-body{
-    font-family: 'Source Sans Pro', sans-serif;
-    line-height: 1.5;
-    background: #f2f2f2;
-    background-image: linear-gradient(to bottom right, rgb(1, 6, 41) , #ffffff);
-    background-attachment: fixed;
-    color: #323232;
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.5;
+  background: #f2f2f2;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 206, 225),
+    #9b2727
+  );
+  background-attachment: fixed;
+  color: #323232;
 }
 
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
 
-.icon{
-    fill: currentColor;
-    display: inline-block;
-    font-size: inherit;
+.icon {
+  fill: currentColor;
+  display: inline-block;
+  font-size: inherit;
   /*  height: 1em;  */
-    overflow: visible;
+  overflow: visible;
 }
 
-a{
-    color: #223497;
-    text-decoration: none;
+a {
+  color: #223497;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.container{
-    max-width: 960px;
-    margin: 40px auto;
-    padding: 32px;
-    background: white;
-    box-shadow: 0 2px 4px rgba(0, 0,0, 0.1);
+.container {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 32px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 section {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-gap: 20px;
-    padding: 24px 0;
-    border-bottom: 1px solid lightgrey;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 20px;
+  padding: 24px 0;
+  border-bottom: 1px solid lightgrey;
 }
 
 section:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .section-title {
-    font-weight: bold;
-    font-size: 18px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 /************************************
 Main Info
 ************************************/
 
-img.avatar{
-    height: 140px;
-    width: 110px;
-    border-radius: 3%
+img.avatar {
+  height: 140px;
+  width: 110px;
+  border-radius: 3%;
 }
 
-.my-name{
-    font-size: 48px;
-    line-height: 1;
+.my-name {
+  font-size: 48px;
+  line-height: 1;
 }
 
 .my-title {
-    font-size: 24px;
-    font-weight: 300;
-   /* color: #236FB2; */
-    color: #da5555;
-    margin-bottom: 36px;
+  font-size: 24px;
+  font-weight: 300;
+  /* color: #236FB2; */
+  color: #da5555;
+  margin-bottom: 36px;
 }
 
 .icon-title {
-
-    display: flex;
-    align-items: center;
-    flex: 1;
+  display: flex;
+  align-items: center;
+  flex: 1;
 }
 
-.icon-title-margin{
-    margin-right: 6px;
+.icon-title-margin {
+  margin-right: 6px;
 }
 
-.links{
-    display: flex;
-    margin: 10px 0 20px 0;
+.links {
+  display: flex;
+  margin: 10px 0 20px 0;
 }
 
-.links-item{
-    display: flex;
-    align-items: center;
-    flex: 1;
+.links-item {
+  display: flex;
+  align-items: center;
+  flex: 1;
 }
 
 .links-item svg {
-    margin-right: 6px;
+  margin-right: 6px;
 }
 
 /************************************
@@ -115,121 +120,119 @@ Experience
 ************************************/
 
 .job {
-    padding-bottom: 24px;
-    margin-bottom: 24px;
-    border-bottom: 1px solid lightgrey;
-  }
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid lightgrey;
+}
 
-  .job:last-child {
-    border-bottom: none;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-  }
+.job:last-child {
+  border-bottom: none;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
 
-  .job-title-container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    font-size: 18px;
-  }
+.job-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
 
+.job-company {
+  font-weight: bold;
+  line-height: 1.2;
+}
 
-  .job-company {
-    font-weight: bold;
-    line-height: 1.2;
-  }
+.job ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
 
-  .job ul {
-    list-style-type: disc;
-    margin-left: 20px;
-  }
+.job ul li {
+  margin-bottom: 5px;
+}
 
-  .job ul li {
-      margin-bottom: 5px;
-  }
-
-  /************************************
+/************************************
 Certifications
 ************************************/
 .cert-list {
-    list-style-type: disc;
-    margin-left: 20px;
+  list-style-type: disc;
+  margin-left: 20px;
 }
 
 .cert-list li {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
-  /***********************************
+/***********************************
 * =Skills
 ***********************************/
 
 .skills-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 0px;
-    margin-bottom: 0px;
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0px;
+  margin-bottom: 0px;
+}
 
-  .skills-container ul {
-    margin-left: 20px;
-    list-style-type: disc;
-  }
+.skills-container ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
 
-    /***********************************
+/***********************************
 * =Interests
 ***********************************/
 
-  .interests-container {
-    display: flex;
-    justify-content: space-between;
-  }
+.interests-container ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
 
-  .interests-container img {
-    height: 40px;
-    opacity: 0.75;
-  }
+.interests-container img {
+  height: 40px;
+  opacity: 0.75;
+}
 
-  /***********************************
+/***********************************
 * =References
 ***********************************/
 
 .reference {
   margin-top: 5px;
-    font-size: 18px;
+  font-size: 18px;
+}
+
+.reference-details {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    grid-template-columns: 1fr;
   }
 
-  .reference-details {
+  .links,
+  .job-title-container {
+    flex-direction: column;
+  }
+
+  .links-item:first-child {
     margin-bottom: 20px;
   }
 
-  @media only screen and (max-width : 768px) {
-    section {
-      grid-template-columns: 1fr;
-    }
-
-    .links, .job-title-container {
-      flex-direction: column;
-    }
-
-    .links-item:first-child{
-      margin-bottom: 20px;
-    }
-
-    .skills-container {
-      grid-template-columns: 1fr 1fr;
-      grid-row-gap: 15px;
-    }
-
-    .interests-container {
-      flex-wrap: wrap;
-      justify-content: flex-start;
-    }
-
-    .interests-container img {
-      margin-right: 32px;
-      margin-bottom: 16px;
-    }
+  .skills-container {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 15px;
   }
 
- 
+  .interests-container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .interests-container img {
+    margin-right: 32px;
+    margin-bottom: 16px;
+  }
+}
