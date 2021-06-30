@@ -2,7 +2,7 @@
   "name": "fellipe-resume",
   "version": "1.0.0",
   "description": "installing parcel to my resume files",
-  "main": "index.html",
+  
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --out-dir ./dist"
