@@ -184,14 +184,21 @@ Certifications
 * =Interests
 ***********************************/
 
-.interests-container ul {
-  list-style-type: disc;
-  margin-left: 20px;
+.interests-container {
+  display: grid;
+  grid-template-columns: 2.4fr 5fr 1fr 1fr;
+  grid-gap: 0px;
+  margin-bottom: 0px;
 }
 
 .interests-container img {
   height: 40px;
   opacity: 0.75;
+}
+
+.interests-container ul {
+  margin-left: 20px;
+  list-style-type: disc;
 }
 
 /***********************************
