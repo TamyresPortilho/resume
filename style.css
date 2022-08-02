@@ -51,7 +51,7 @@ a:hover {
 }
 
 section {
-  display: grid;
+  display: block;
   grid-template-columns: 1fr 4fr;
   grid-gap: 20px;
   padding: 24px 0;
